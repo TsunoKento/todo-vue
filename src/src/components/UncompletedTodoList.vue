@@ -10,7 +10,7 @@ const todoList = ref([
 
 <template>
   <h2>未完了</h2>
-  <v-card class="mx-auto" max-width="300">
+  <v-card class="mx-auto">
     <v-list :items="todoList" item-value="id" />
   </v-card>
 </template>
